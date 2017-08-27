@@ -1,0 +1,15 @@
+Name: merge.sid
+Suite: sid
+VerifyRelease: blindtrust
+Method: http://sgp1.mirrors.digitalocean.com/debian 
+Architectures: amd64 source
+Components: main non-free>restricted contrib>extras
+FilterList: install blacklist.uluwatu
+
+Name: merge.uluwatu
+Suite: tambora
+VerifyRelease: blindtrust
+Method: http://repo.ridon.id/blankon
+Architectures: amd64 source
+Components: main restricted extras extras-restricted
+

@@ -1,0 +1,45 @@
+Origin: BlankOn
+Label: BlankOn
+Codename: experimental
+Suite: experimental
+Components: main
+UDebComponents: main 
+Architectures: amd64 source
+Version: 11.0
+Description: BlankOn Experimental Repository
+#Update: merge.sid 
+#SignWith: 0DE29539
+DebIndices: Packages Release . .gz .bz2 tiffany.py
+UDebIndices: Packages . .gz .bz2
+DscIndices: Sources Release . .gz .bz2 tiffany.py
+Contents: udebs nodebs . .gz 
+ContentsArchitectures: amd64
+ContentsComponents: main
+ContentsUComponents: main 
+Log: experimental.log
+ --type=dsc changelogs
+
+Origin: BlankOn
+Label: BlankOn
+Codename: uluwatu
+Suite: uluwatu
+Components: main restricted extras extras-restricted
+UDebComponents: main
+Architectures: amd64 source
+Version: 11.0
+Description: BlankOn 11.0 Uluwatu
+#SignWith: B81CA9B3
+SignWith: 9120A048 
+# Jangan kasih "-" di kolom Update, nanti paket2 khas2 blankon akan dihapus
+Update: merge.sid
+DebIndices: Packages Release . .gz .bz2 tiffany.py
+UDebIndices: Packages . .gz .bz2
+DscIndices: Sources Release . .gz .bz2 tiffany.py
+#Pull: pull.tambora pull.tambora-updates
+Contents: udebs nodebs . .gz
+ContentsArchitectures: amd64
+ContentsComponents: main restricted extras extras-restricted
+ContentsUComponents: main
+Log: uluwatu.log
+ --type=dsc changelogs
+
