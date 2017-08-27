@@ -1,7 +1,7 @@
 Name: merge.sid
 Suite: sid
 VerifyRelease: blindtrust
-Method: http://sgp1.mirrors.digitalocean.com/debian 
+Method: http://kartolo.sby.datautama.net.id/debian
 Architectures: amd64 source
 Components: main non-free>restricted contrib>extras
 FilterList: install blacklist.uluwatu

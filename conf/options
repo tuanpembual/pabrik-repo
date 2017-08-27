@@ -1,5 +1,5 @@
-basedir /data/repo/reprepro
-confdir /data/repo/reprepro/conf
-dbdir /data/repo/reprepro/db
-outdir /data/repo/reprepro/arsip/blankon/
-gnupghome /data/repo/.gnupg
+basedir /home/irgsh-repo/reprepro
+confdir /home/irgsh-repo/reprepro/conf
+dbdir /home/irgsh-repo/reprepro/db
+outdir /home/irgsh-repo/reprepro/arsip/blankon/
+gnupghome /home/irgsh-repo/.gnupg
